@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ingresar ubicación</title>
+	<style type="text/css">
+		
+
+	body {background-color:#f8f2da;}
+    footer{
+    	clear: both;
+     }
+    p{ 
+    text-align: center; }
+     #header{
+			background-color: #E49B0F;
+			margin-top: 2px solid;
+			margin: 10px;
+			border-bottom: 5px solid;
+		}
+</style>
+</head>
+<body>
+	<p align="center"><a href="index.html"> <img src="estrella.png" align="left" width="50" height="50"></a>
+<header id="header">
+	<h2 align="center">Ingresa los datos del envío</h2></p>
+</header>
+	<br>
+	<hr>
+
+	<form>
+		<fieldset>
+			<legend align="center"><strong>Dirección</strong></legend>
+
+			<p>Nombre y apellido:<br><input type="text" name="nom"></p>
+
+			<p>Código postal:<br><input type="text" name="cp"></p>
+
+			<p>Estado:<br> <input type="text" name="est"></p>
+
+			<p>Municipio/Alcaldía:<br> <input type="text" name="nun"></p>
+
+			<p> Colonia:<br> <input type="text" name="col"></p>
+
+			<p>Calle:<br> <input type="text" name="calle"></p>
+			
+			<p>Número exterior:<br> <input type="number" name="numex"></p>
+
+			<p>Número interior:<br> <input type="number" name="numin" placeholder="opcional"></p>
+
+			<p>¿Entre qué calles está? (opcional)<br>
+				Calle 1:<br> <input type="text" name="c1"><br>
+			    Calle 2:<br><input type="text" name="c2">
+			</p>
+
+			<p>¿Es tu trabajo o casa?</p>
+
+			<p>
+				<input type="radio" name="direccion" id="trabajo">
+				<label for="trabajo"> Trabajo </label>
+			</p>
+
+			<p>
+				<input type="radio" name="direccion" id="casa">
+				<label for="casa"> Casa </label>
+
+			</p>
+			
+
+			<p>Teléfono de contacto:<br> <input type="tel" name="tel" placeholder="10 dígitos">
+			</p>
+
+			<p>Indicciones adiconales para las entregas en esta dirección.<br>
+			<textarea rows="8" cols="45" placeholder="opcional"></textarea></p>
+
+
+			<p align="center"><input type="submit" name="botonEnviar" value="Enviar"/></p>
+
+		</fieldset>
+
+
+		
+	</form>
+
+</body>
+</html>
